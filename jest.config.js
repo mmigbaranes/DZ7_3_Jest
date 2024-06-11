@@ -3,6 +3,7 @@ const config = {
       '**/*.{js,jsx}',
       '!**/node_modules/**',
       '!**/coverage/**',
+      '!**/*jest.config.js'
     ],
     "coverageThreshold": {
         "branches": 100,
